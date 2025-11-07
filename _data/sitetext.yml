@@ -11,29 +11,29 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Creative Digital Solutions
-    text: It's Nice To Meet You
+    title: Seventy Two Agency
+    text: We help organizations turn ideas into practical digital solutions.
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "What we offer"
+    title: "What We Do"
+    text: "We work with corporate teams to explore, define, and deliver digital tools that solve real business challenges."
     section: services
     list:
-      - title: "Application Design"
-        desc: "User-centered design for web and mobile applications. We create beautiful, intuitive interfaces that users love to interact with."
+      - title: "Concept Development"
+        desc: "Shaping ideas into clear, validated product visions. We help you understand your challenge, define what success looks like, and build confidence before committing to full development."
+        icon: fas fa-lightbulb
+      - title: "App Design"
+        desc: "Cross-platform design for iOS, Android, and web. We create intuitive interfaces that engage users and solve real problems."
         icon: fas fa-pencil-ruler
-      - title: "Strategy"
-        desc: "Digital strategy and consulting services to help you navigate the digital landscape and achieve your business goals."
-        icon: fas fa-chess
-      - title: "Mobile Development"
-        desc: "Native and cross-platform mobile app development for iOS and Android. We build apps that perform and scale."
-        icon: fas fa-mobile-alt
+      - title: "Prototype Creation"
+        desc: "Test, refine, and demonstrate value before full build. Prototypes help validate ideas, gather feedback, and prove ROI to stakeholders."
+        icon: fas fa-cube
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Recent Concepts"
+    text: "Innovative solutions we've designed and prototyped"
     section: portfolio
     closebutton: "Close Project"
 
@@ -69,9 +69,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Seventy Two Agency"
-    text: "Our Story"
-    body: "We're a digital agency specializing in creating innovative mobile apps, stunning application designs, and strategic digital solutions that help businesses grow and succeed in the modern world. With a passion for excellence and a commitment to our clients, we deliver work that makes an impact."
+    title: "Our Approach"
+    text: "How We Work"
+    body: "Every project starts with understanding your goals. We then move from idea to prototype quickly, using iterative design and feedback to ensure what we build fits your people and your business. Our focus is on designing and building apps that engage employees, simplify processes, and create measurable impact."
     section: about
 
   clients:
@@ -93,9 +93,9 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR TEAM"
-    text: "Talented professionals dedicated to your success"
-    subtext: We're a team of designers, developers, and strategists working together to create exceptional digital experiences.
+    title: "Our Team"
+    text: "Experts in digital product design and development"
+    subtext: We're a team of designers, developers, and strategists who understand how to translate business goals into digital solutions that people actually want to use.
     section: team
     people:
       - name: "Kay Garland"
