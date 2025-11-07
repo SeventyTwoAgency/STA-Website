@@ -50,16 +50,16 @@ en: &DEFAULT_EN
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: /assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: /assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "Our Team"
@@ -69,7 +69,7 @@ en: &DEFAULT_EN
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -79,7 +79,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+        image: /assets/img/team/2.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -89,7 +89,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -408,16 +408,16 @@ es: &DEFAULT_ES
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: /assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: /assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
@@ -427,7 +427,7 @@ es: &DEFAULT_ES
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -437,7 +437,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+        image: /assets/img/team/2.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -447,7 +447,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -612,16 +612,16 @@ de: &DEFAULT_DE
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: /assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: /assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "Unser großartiges Team"
@@ -631,7 +631,7 @@ de: &DEFAULT_DE
     people:
       - name: "Kay Garland"
         role: "Chef-Designer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -641,7 +641,7 @@ de: &DEFAULT_DE
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Chef der Werbeabteilung"
-        image: assets/img/team/2.jpg
+        image: /assets/img/team/2.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -651,7 +651,7 @@ de: &DEFAULT_DE
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Chef-Programmiererin"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter

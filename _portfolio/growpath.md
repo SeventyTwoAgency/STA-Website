@@ -1,13 +1,13 @@
 ---
 title: GrowPath
 subtitle: Personalized skills and goals development platform
-image: assets/img/portfolio/06-thumbnail.jpg
+image: /assets/img/portfolio/06-thumbnail.jpg
 alt: GrowPath interface mockup
 
 caption:
   title: GrowPath
   subtitle: Employee Development Platform
-  thumbnail: assets/img/portfolio/06-thumbnail.jpg
+  thumbnail: /assets/img/portfolio/06-thumbnail.jpg
 ---
 
 GrowPath is our concept for a personalized skills and goals development platform that connects individual growth with company strategy.
