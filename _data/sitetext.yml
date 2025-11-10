@@ -57,21 +57,25 @@ en: &DEFAULT_EN
       - title: "Data Insights"
         desc: "Aggregated member behaviour insights for strategic partners"
         icon: fas fa-chart-bar
+      - title: "Consulting Services"
+        desc: "Strategic advice and support to help you achieve your goals"
+        icon: fas fa-users
 
   about:
     title: "Why Partner With Us?"
     text: "A synergy of expertise, excellence, and execution."
     body: |
       **Our Credibility:**
-      * Built production payment systems handling billions
-      * Led teams managing infrastructure for 2,000+ engineers
-      * Pioneered agentic AI developer tooling at enterprise scale
-      * Now choosing meaningful projects over corporate ladder-climbing
+      Built production payment systems handling billions
+      Led teams managing infrastructure for 2,000+ engineers
+      Pioneered agentic AI developer tooling at enterprise scale
+      Now choosing meaningful projects over corporate ladder-climbing
 
       **The Partnership Triangle:**
-      * **You:** Engineering excellence, app development, enterprise-grade infrastructure
-      * **Will (w8data):** Data strategy, analytics, insights that drive decision-making
-      * **Synergy:** Client relationships, marketing expertise, go-to-market for membership organisations
+      You: Engineering excellence, app development, enterprise-grade infrastructure
+      Data strategy, analytics, insights that drive decision-making
+      Client relationships, marketing expertise, go-to-market for membership organisations
+      Agentic AI and data visualisation
     section: about
 
   clients:
