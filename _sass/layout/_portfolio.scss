@@ -5,7 +5,9 @@
     margin: 0 0 15px;
     .portfolio-link {
       position: relative;
-      display: block;
+      display: flex; /* Add this */
+      justify-content: center; /* Add this */
+      align-items: center; /* Add this */
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
