@@ -10,16 +10,8 @@
       </div>
       <!-- Social Media -->
       <!-- Legal -->
-      <div class="col-md-4 text-right">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
-        </ul>
-      </div>
+      <div class="col-md-8">
+        <ul class="list-inline quicklinks ml-auto">
     </div>
     {% else %}
     <div class="row align-items-center">
@@ -45,8 +37,8 @@
       </div>
       {% endcomment %}
       <!-- Legal -->
-      <div class="col-md-4 text-right">
-        <ul class="list-inline quicklinks">
+      <div class="col-md-8">
+        <ul class="list-inline quicklinks ml-auto">
           <li class="list-inline-item">
             <a href="legal"
               >{{ site.data.sitetext.footer.legal | default:
