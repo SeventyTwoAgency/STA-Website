@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Parkrun
   subtitle: Visualisation
-  thumbnail: /assets/img/portfolio/parkrun.webp
+  thumbnail: /assets/img/portfolio/parkrun_new.png
   
 #what displays when the item is clicked:
 title: Parkrun
 subtitle: Visualisation
-image: /assets/img/portfolio/parkrun.webp #main image, can be a link or a file in assets/img/portfolio
+image: /assets/img/portfolio/parkrun_new.png #main image, can be a link or a file in assets/img/portfolio
 alt: Parkrun QR Code App
 
 ---

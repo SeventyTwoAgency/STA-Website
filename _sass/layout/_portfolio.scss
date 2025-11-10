@@ -57,6 +57,11 @@
         @include serif-font;
       }
     }
+    img {
+      max-height: 157.5px;
+      width: auto; /* Maintain aspect ratio */
+      margin: 0 auto; /* Center the image if it's smaller than the container */
+    }
   }
   * {
     z-index: 2;
