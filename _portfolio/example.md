@@ -1,11 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Parkrun
+  title: parkrun
   subtitle: Visualisation
   thumbnail: /assets/img/portfolio/parkrun_new.png
   
 #what displays when the item is clicked:
-title: Parkrun
+title: parkrun
 subtitle: Visualisation
 image: /assets/img/portfolio/parkrun_new.png #main image, can be a link or a file in assets/img/portfolio
 alt: Parkrun QR Code App
