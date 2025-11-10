@@ -1,0 +1,59 @@
+<!-- Monetization -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].monetization.section | default: "monetization" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].monetization.title | default: "Monetization" }}</h2>
+          {% if site.data.sitetext[site.locale].monetization.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].monetization.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  {% for item in site.data.sitetext[site.locale].monetization.list %}
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ item.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ item.title | markdownify }}</h4>
+          {% if item.desc %}<div class="text-muted">{{ item.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.monetization.section | default: "monetization" }}">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.monetization.title | default: "Monetization" }}</h2>
+        {% if site.data.sitetext.monetization.text %}
+    <h3 class="section-subheading text-muted">{{ site.data.sitetext.monetization.text }}</h3>
+    {% endif %}
+      </div>
+    </div>
+  
+    <div class="row text-center">
+  {% for item in site.data.sitetext.monetization.list %}
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="{{ item.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">{{ item.title | markdownify }}</h4>
+        {% if item.desc %}<div class="text-muted">{{ item.desc | markdownify }}</div>{% endif %}
+      </div>
+  {% endfor %}
+    </div>
+  
+  </div>
+</section>
+{% endif %}
+<!-- End Monetization -->
