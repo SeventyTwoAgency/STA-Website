@@ -9,6 +9,7 @@
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      text-align: center;
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -60,7 +61,8 @@
     img {
       max-height: 157.5px;
       width: auto; /* Maintain aspect ratio */
-      margin: 0 auto; /* Center the image if it's smaller than the container */
+      display: inline-block;
+      vertical-align: middle;
     }
   }
   * {
