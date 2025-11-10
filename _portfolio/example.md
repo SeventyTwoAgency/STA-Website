@@ -1,22 +1,22 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  title: Parkrun
+  subtitle: Visualisation
+  thumbnail: /assets/img/portfolio/parkrun.webp
   
 #what displays when the item is clicked:
-title: Title
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
-alt: image alt text
+title: Parkrun
+subtitle: Visualisation
+image: /assets/img/portfolio/parkrun.webp #main image, can be a link or a file in assets/img/portfolio
+alt: Parkrun QR Code App
 
 ---
-Use this area to describe your project. **Markdown** supported.
+5k QR Code is a companion iOS and Apple Watch app that makes it quick and easy to display your personal 5K barcode for events like parkrun. Whether you want to share your barcode on your phone or want a fast way to show your code from your wrist, this app helps you get moving without digging through your emails or wallet. You can even keep a copy of your family and friend's barcode on your phone, for when they forget it.
 
-optional info list (delete if not using):
-
-{:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
-
+What's New:
+- Support for iOS 26 - Bug fixes.
+- Garmin Connect IQ companion app integration - sync your parkrun data directly to your Garmin watch for easy access during runs.
+- Advanced journey analytics and performance visualisations, view detailed charts, venue-specific performance bars and comprehensive running statistics.
+- Camera barcode scanning for quick ID entry.
+- Ability to include or exclude Junior parkruns.
+- Improved iPad support.
