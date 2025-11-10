@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Seventy Two Agency
-    text: We help organisations across the world to deliver compelling solutions across mobile and the web.
+    text: We help organisations across the world to deliver compelling solutions across mobile and the web
     button: Tell Me More
     buttonlink: "#services"
 
@@ -27,7 +27,7 @@ en: &DEFAULT_EN
       - title: "New Recurring Revenue Streams"
         desc: "From subscription tiers to transactional marketplaces, we help you create new, sustainable revenue."
         icon: fas fa-dollar-sign
-      - title: "Strategic Partnership"
+      - title: "Strategic<br>Partnership"
         desc: "We handle the technical heavy lifting, so you can focus on your client relationships and go-to-market strategy."
         icon: fas fa-handshake
 

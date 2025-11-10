@@ -2,4 +2,8 @@
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
