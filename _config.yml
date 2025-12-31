@@ -15,7 +15,7 @@ url    : "https://www.seventytwoagency.co.uk" # the base hostname & protocol for
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Seventy Two Agency
-email      : hello@seventytwoagency.co.uk #this is also the email contact forms will go to
+email:      info@seventytwoagency.co.uk #this is also the email contact forms will go to
 description: "Creative digital agency specializing in design, development, and digital strategy"
 author     : Seventy Two Agency
 # logo:     #optional, defaults to site title
