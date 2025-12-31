@@ -1,9 +1,21 @@
 // Styling for the services section
+.service-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Ensure text within is also centered */
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-  min-height: 60px;
+  height: 80px; /* Keep fixed height for consistent spacing */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* Vertically center text within heading */
+  justify-content: center; /* Horizontally center text within heading */
+}
+
+.service-item .text-muted {
+  flex-grow: 1;
 }

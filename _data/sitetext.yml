@@ -17,19 +17,19 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "What We Deliver"
-    text: "We extend your omnichannel offering into premium digital experiences, creating new recurring revenue streams and strengthening your position as a strategic partner."
+    title: "Our Services"
+    text: "We offer a range of services to help you achieve your business goals."
     section: services
     list:
-      - title: "Premium Digital Experiences"
-        desc: "We build compelling solutions across mobile and the web that your members will love."
+      - title: "App Design & Development"
+        desc: "We design and build beautiful, responsive, and high-performing applications that are tailored to your brand and business objectives."
+        icon: fas fa-laptop-code
+      - title: "Mobile App Development"
+        desc: "We create engaging and intuitive mobile apps for iOS and Android that will delight your users and grow your business."
         icon: fas fa-mobile-alt
-      - title: "New Recurring Revenue Streams"
-        desc: "From subscription tiers to transactional marketplaces, we help you create new, sustainable revenue."
-        icon: fas fa-dollar-sign
-      - title: "Strategic<br>Partnership"
-        desc: "We handle the technical heavy lifting, so you can focus on your client relationships and go-to-market strategy."
-        icon: fas fa-handshake
+      - title: "UI/UX Design"
+        desc: "We craft user-centric designs that are both aesthetically pleasing and easy to use, ensuring a seamless user experience."
+        icon: fas fa-drafting-compass
 
   portfolio:
     title: "Recent Concepts"
@@ -38,44 +38,33 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
 
   monetization:
-    title: "Monetization Angles"
-    text: "We help you unlock new revenue streams."
+    title: "Our Capabilities"
+    text: "We offer a range of services to help you build your digital product."
     section: monetization
     list:
-      - title: "Subscription Tiers"
-        desc: "Free basic, premium content/features"
-        icon: fas fa-layer-group
-      - title: "Affiliate Uplifts"
-        desc: "Transform static partnerships into transactional marketplaces"
-        icon: fas fa-hand-holding-usd
-      - title: "Event Monetization"
-        desc: "Registration fees, ticketing integration"
-        icon: fas fa-calendar-check
-      - title: "Sponsorship Inventory"
-        desc: "In-app advertising for aligned brands"
-        icon: fas fa-ad
-      - title: "Data Insights"
-        desc: "Aggregated member behaviour insights for strategic partners"
-        icon: fas fa-chart-bar
+      - title: "Accelerated Development"
+        desc: "We leverage our seasoned developers and advanced Agentic AI to deliver high-quality solutions with exceptional speed and efficiency."
+        icon: fas fa-rocket
+      - title: "Expert Design"
+        desc: "With over 30 years of combined industry experience, our team creates intuitive and engaging user experiences that captivate your audience."
+        icon: fas fa-pencil-ruler
       - title: "Consulting Services"
-        desc: "Strategic advice and support to help you achieve your goals"
+        desc: "Strategic advice and support to help you achieve your goals."
         icon: fas fa-users
+      - title: "Data-Driven Insights"
+        desc: "We help you unlock the power of your data, providing a deeper understanding of your customers and systems to drive informed decisions."
+        icon: fas fa-chart-line
+      - title: "Agentic AI Integration"
+        desc: "We seamlessly integrate cutting-edge Agentic AI into your business processes, unlocking new levels of automation and efficiency."
+        icon: fas fa-robot
+      - title: "Cloud & DevOps"
+        desc: "We provide expert cloud infrastructure and DevOps services to ensure your applications are scalable, reliable, and secure."
+        icon: fas fa-cloud
 
   about:
-    title: "Why Partner With Us?"
-    text: "A synergy of expertise, excellence, and execution."
-    body: |
-      **Our Credibility:**
-      Built production payment systems handling billions
-      Led teams managing infrastructure for 2,000+ engineers
-      Pioneered agentic AI developer tooling at enterprise scale
-      Now choosing meaningful projects over corporate ladder-climbing
-
-      **The Partnership Triangle:**
-      You: Engineering excellence, app development, enterprise-grade infrastructure
-      Data strategy, analytics, insights that drive decision-making
-      Client relationships, marketing expertise, go-to-market for membership organisations
-      Agentic AI and data visualisation
+    title: "About Us"
+    text: "We are a passionate team of designers and developers dedicated to creating exceptional digital experiences."
+    body: "Seventy Two is a digital product agency that partners with businesses to design and build beautiful, engaging, and high-performing applications, websites and mobile apps. We are a team of passionate designers, developers, and strategists who are dedicated to helping our clients achieve their business goals through the power of technology."
     section: about
 
   clients:

@@ -1,6 +1,6 @@
 <!-- Monetization -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-  <section class="page-section" id="{{ site.data.sitetext[site.locale].monetization.section | default: "monetization" }}">
+  <section class="page-section bg-off-white" id="{{ site.data.sitetext[site.locale].monetization.section | default: "monetization" }}">
     <div class="container">
 	
       <div class="row">
@@ -28,7 +28,7 @@
     </div>
   </section>
 {% else %}
-<section class="page-section" id="{{ site.data.sitetext.monetization.section | default: "monetization" }}">
+<section class="page-section bg-off-white" id="{{ site.data.sitetext.monetization.section | default: "monetization" }}">
   <div class="container">
 
     <div class="row">
