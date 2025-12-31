@@ -13,10 +13,12 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    - title: "Portfolio"
-      section: portfolio
+    - title: "Capabilities"
+      section: monetization
     - title: "About"
       section: about
+    - title: "Contact"
+      section: contact
 
 en-001: #English (World)
   <<: *DEFAULT_EN
