@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voltsure Support</title>
+<meta name="description" content="Help with Voltsure: compatible battery monitors, connection problems, charge estimates, status, alerts and history.">
+<link rel="canonical" href="https://www.seventytwoagency.co.uk/voltsure/support.html">
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/voltsure.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <a class="brand" href="./"><img src="assets/icon.svg" alt=""><span>Voltsure</span></a>
+    <ul class="nav-links">
+      <li class="hide-sm"><a href="./#features">Features</a></li>
+      <li><a href="support.html" aria-current="page">Support</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="container narrow page-hero">
+    <p class="eyebrow">Support</p>
+    <h1>How can we help?</h1>
+    <p>Answers to common questions about Voltsure, and how to get in touch.</p>
+  </div>
+
+  <div class="container narrow prose">
+    <div class="callout" id="contact">
+      <p><strong>Contact us</strong></p>
+      <p>Email <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20support">info@seventytwoagency.co.uk</a>. Please include your app version (Settings → About) and which monitor you use.</p>
+    </div>
+
+    <h2>Common questions</h2>
+
+    <details>
+      <summary>Which monitors work with Voltsure?</summary>
+      <div><p>BM2 Bluetooth battery monitors. BM6 support is experimental and shows live voltage only.</p></div>
+    </details>
+
+    <details>
+      <summary>The app can’t find my monitor</summary>
+      <div><p>Check Bluetooth is on and the monitor is fitted to the battery. Stay within about 10&nbsp;m. A monitor talks to one app at a time, so close the maker’s app, or disconnect the monitor there, first.</p></div>
+    </details>
+
+    <details>
+      <summary>Why is the charge an estimate?</summary>
+      <div><p>BM2 monitors measure voltage, not current. Charge is worked out from the voltage and is most accurate after the battery has rested with nothing running for an hour. Under load the true charge is at least the figure shown; just after charging it is at most the figure shown.</p></div>
+    </details>
+
+    <details>
+      <summary>What does the status mean?</summary>
+      <div>
+        <p>The status is estimated from battery voltage. Charging and discharging can’t be confirmed without measuring current.</p>
+        <ul>
+          <li><span class="pill charging">Charging</span> At the battery type’s charging voltage, so a charger, alternator or solar is supplying power. It shows for 5 minutes after the last burst, as smart alternators charge in bursts.</li>
+          <li><span class="pill rising">Rising</span> The voltage has risen over the last two minutes. Charging is likely, though a load switching off does the same.</li>
+          <li><span class="pill stable">Stable</span> The voltage is holding steady. A charger and a load may both be running.</li>
+          <li><span class="pill falling">Falling</span> The voltage has fallen over the last two minutes, so something is likely drawing power.</li>
+          <li><span class="pill low">Low</span> Below the battery’s low-voltage alert level.</li>
+          <li><span class="pill unknown">Unknown</span> Not enough readings yet, as with a battery just added. The status needs ten minutes of stored readings, or two minutes of live ones.</li>
+        </ul>
+        <p>Lithium (LiFePO4) voltage barely moves while charging or discharging, so a lithium battery often shows Stable.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I didn’t get a low-voltage alert</summary>
+      <div><p>Alerts need notifications allowed for Voltsure, and the app must not be force-quit: iOS only reconnects to monitors in the background while the app is still running.</p></div>
+    </details>
+
+    <details>
+      <summary>There are gaps in my history</summary>
+      <div><p>Monitors keep the last few days of readings. The app downloads them when it reconnects, so gaps fill in once you’re back in range, as long as you return within a few days.</p></div>
+    </details>
+
+    <details>
+      <summary>How do I restore Voltsure Pro?</summary>
+      <div><p>Voltsure Pro is a one-time purchase tied to your Apple ID and shared with your family through Family Sharing. On a new device, open the Voltsure Pro screen in the app and tap Restore Purchase.</p></div>
+    </details>
+
+    <details>
+      <summary>Does Voltsure collect my data?</summary>
+      <div><p>No. No account, no servers, no location, no analytics. It works fully offline. See the <a href="privacy.html">privacy policy</a>.</p></div>
+    </details>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="./"><img src="assets/icon.svg" alt=""><span>Voltsure</span></a>
+        <p class="muted">Private battery monitoring for campervans, motorhomes and caravans.</p>
+      </div>
+      <div><h4>App</h4><ul><li><a href="./#features">Features</a></li><li><a href="about.html">About</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="support.html">Support</a></li><li><a href="support.html#contact">Contact</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use (EULA)</a></li></ul></div>
+    </div>
+    <p class="footer-bottom">© 2026 <a href="https://www.seventytwoagency.co.uk/">Seventy Two Agency</a>. Designed and built in the UK.</p>
+  </div>
+</footer>
+
+</body>
+</html>

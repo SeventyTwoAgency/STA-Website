@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voltsure – Private Battery Monitor for Campervans &amp; Motorhomes</title>
+<meta name="description" content="Voltsure turns your BM2 Bluetooth battery monitor into a clear, private view of your campervan, motorhome or caravan batteries. No account, no tracking, works offline. iPhone, iPad, Mac and CarPlay.">
+<link rel="canonical" href="https://www.seventytwoagency.co.uk/voltsure/">
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#fbfaf6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Voltsure">
+<meta property="og:title" content="Voltsure – Private Battery Monitor">
+<meta property="og:description" content="Know your leisure and starter batteries at a glance. No account, no tracking, no location. Your readings never leave your device.">
+<meta property="og:url" content="https://www.seventytwoagency.co.uk/voltsure/">
+<meta property="og:image" content="https://www.seventytwoagency.co.uk/voltsure/assets/icon-1024.png">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Voltsure",
+  "description": "Private battery monitor app for campervans, motorhomes and caravans, for BM2 Bluetooth battery monitors.",
+  "url": "https://www.seventytwoagency.co.uk/voltsure/",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "iOS, iPadOS, macOS",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+  "author": { "@type": "Organization", "name": "Seventy Two Agency", "url": "https://www.seventytwoagency.co.uk/" }
+}
+</script>
+<link rel="stylesheet" href="assets/voltsure.css">
+</head>
+<body>
+
+<!-- Shared gradient for the charge rings -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34c759"/><stop offset=".55" stop-color="#14b8a6"/><stop offset="1" stop-color="#2f7fe6"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <a class="brand" href="./"><img src="assets/icon.svg" alt=""><span>Voltsure</span></a>
+    <ul class="nav-links">
+      <li class="hide-sm"><a href="#features">Features</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <img class="hero-icon" src="assets/icon.svg" alt="Voltsure app icon" width="76" height="76">
+        <p class="eyebrow">Battery monitor for life on the road</p>
+        <h1>Know your batteries. <span class="grad-text">Keep your privacy.</span></h1>
+        <p class="lede">Voltsure turns your BM2 Bluetooth battery monitor into a clear, private view of your campervan, motorhome or caravan batteries. No account, no tracking, and your readings never leave your device.</p>
+        <div class="actions">
+          <!-- Swap for the official App Store badge and link once the app is live -->
+          <a class="btn btn-primary" href="#download">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.17-1.54 2.66-.39 6.6 1.1 8.76.73 1.06 1.6 2.24 2.73 2.2 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.41 1.2-2.47-.03-.01-2.29-.88-2.3-3.5zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg>
+            Coming soon to the App Store
+          </a>
+          <a class="btn btn-secondary" href="#features">See features</a>
+        </div>
+        <p class="note">Free to download. Voltsure Pro is a one-time purchase, with no subscription.</p>
+      </div>
+
+      <div aria-hidden="true">
+        <div class="phone">
+          <div class="screen">
+            <p class="screen-title">Batteries</p>
+
+            <div class="bcard">
+              <svg class="ring" viewBox="0 0 60 60"><circle cx="30" cy="30" r="24" fill="none" stroke="#e4e1d8" stroke-width="7" opacity=".5"/><circle cx="30" cy="30" r="24" fill="none" stroke="url(#ringGrad)" stroke-width="7" stroke-linecap="round" stroke-dasharray="132 151" transform="rotate(-90 30 30)"/><text x="30" y="34.5" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor">87%</text></svg>
+              <div>
+                <div class="name">Leisure battery</div>
+                <div class="volts">13.42 <small>V</small></div>
+                <span class="pill charging">Charging</span>
+              </div>
+            </div>
+
+            <div class="bcard">
+              <svg class="ring" viewBox="0 0 60 60"><circle cx="30" cy="30" r="24" fill="none" stroke="#e4e1d8" stroke-width="7" opacity=".5"/><circle cx="30" cy="30" r="24" fill="none" stroke="url(#ringGrad)" stroke-width="7" stroke-linecap="round" stroke-dasharray="113 151" transform="rotate(-90 30 30)"/><text x="30" y="34.5" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor">75%</text></svg>
+              <div>
+                <div class="name">Starter battery</div>
+                <div class="volts">12.61 <small>V</small></div>
+                <span class="pill stable">Stable</span>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="lbl"><span>Leisure · 24 hours</span><span>12.0 – 13.6 V</span></div>
+              <svg viewBox="0 0 240 92" width="100%">
+                <rect x="150" y="0" width="58" height="80" fill="#34c759" opacity=".12"/>
+                <line x1="0" y1="66" x2="240" y2="66" stroke="#d93a30" stroke-dasharray="3 3" stroke-width="1" opacity=".7"/>
+                <path d="M0,40 C20,42 30,46 50,48 S80,54 100,56 S130,58 150,52 S170,24 190,20 S215,26 240,28" fill="none" stroke="url(#ringGrad)" stroke-width="2.5" stroke-linecap="round"/>
+                <text x="0" y="90" font-size="9" fill="currentColor" opacity=".5">00:00</text>
+                <text x="108" y="90" font-size="9" fill="currentColor" opacity=".5">12:00</text>
+                <text x="214" y="90" font-size="9" fill="currentColor" opacity=".5">Now</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="privacy-strip">
+    <ul class="container">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No account or sign-up</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Works fully offline</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Never asks for your location</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No ads, analytics or tracking</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Designed and built in the UK</li>
+    </ul>
+  </div>
+
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Features</p>
+        <h2>Everything your batteries are telling you</h2>
+        <p>See every battery at a glance, catch problems before they leave you flat, and look back at how your setup is really performing.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="17" height="10" rx="2"/><path d="M22 11v2"/><path d="m11 9-2 3h3l-2 3"/></svg></div>
+          <h3>Every battery at a glance</h3>
+          <p>Live voltage, an estimate of the charge left, and whether each battery is charging, rising, stable, falling or low.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+          <h3>Alerts before it goes flat</h3>
+          <p>A notification when a battery stays below its alert level for five minutes. Sensible defaults for lead-acid, AGM and lithium (LiFePO4).</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></div>
+          <h3>History that catches up</h3>
+          <p>Your monitor logs a reading every two minutes. Voltsure downloads it when it reconnects, so charts fill in after time away.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg></div>
+          <h3>CarPlay <span class="tag-pro">PRO</span></h3>
+          <p>Check your batteries on the dashboard before you set off, without reaching for your phone.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div>
+          <h3>Widgets <span class="tag-pro">PRO</span></h3>
+          <p>Home Screen and Lock Screen widgets put your battery levels one glance away.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17h14l-1.5-6.5A2 2 0 0 0 15.6 9H8.4a2 2 0 0 0-1.9 1.5Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg></div>
+          <h3>Vehicles &amp; export <span class="tag-pro">PRO</span></h3>
+          <p>Group batteries by vehicle, with number plates, and export your readings as CSV whenever you like.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">Honest about the numbers</p>
+        <h2>Clear status, without pretending</h2>
+        <p>BM2 monitors measure voltage, not current. Voltsure is upfront about that: charge is shown as an estimate, labelled “under load” or “settling” when the voltage reads low or high, and the status tells you what the voltage is actually doing.</p>
+        <p>Open any battery to see its last 24 hours, 7 days or 30 days, with charging periods shaded and your low-voltage alert marked.</p>
+      </div>
+      <ul class="status-list">
+        <li><span class="pill charging">Charging</span><span>A charger, alternator or solar is supplying power.</span></li>
+        <li><span class="pill rising">Rising</span><span>Voltage has risen over the last two minutes.</span></li>
+        <li><span class="pill stable">Stable</span><span>Voltage is holding steady.</span></li>
+        <li><span class="pill falling">Falling</span><span>Something is likely drawing power.</span></li>
+        <li><span class="pill low">Low</span><span>Below the battery’s low-voltage alert level.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Pricing</p>
+        <h2>Free to use. Pro, once.</h2>
+        <p>Everything you need to keep an eye on your batteries is free. Pro unlocks the extras, with one payment and no subscription.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>Voltsure</h3>
+          <p class="price">Free</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Live voltage and status</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Charge estimates</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>24-hour history</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Low-voltage alerts</li>
+          </ul>
+        </div>
+        <div class="plan pro">
+          <h3>Voltsure Pro</h3>
+          <p class="price">One-time purchase · Family Sharing</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Everything in Free</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>CarPlay</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Home Screen and Lock Screen widgets</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>7 and 30 day history</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Vehicles with number plates</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>CSV export and themes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Works everywhere you are</p>
+        <h2>iPhone, iPad, Mac and CarPlay</h2>
+      </div>
+      <div class="devices">
+        <div class="device">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          <h3>iPhone</h3><p>Your batteries in your pocket</p>
+        </div>
+        <div class="device">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          <h3>iPad</h3><p>Bigger charts, same privacy</p>
+        </div>
+        <div class="device">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M1.5 20h21"/></svg>
+          <h3>Mac</h3><p>On Apple silicon Macs</p>
+        </div>
+        <div class="device">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17h14l-1.5-6.5A2 2 0 0 0 15.6 9H8.4a2 2 0 0 0-1.9 1.5Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
+          <h3>CarPlay</h3><p>Right on your dashboard</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="download">
+    <div class="container narrow">
+      <img class="hero-icon" src="assets/icon.svg" alt="" width="76" height="76">
+      <h2>Set off knowing your batteries are fine</h2>
+      <p>Voltsure works with BM2 Bluetooth battery monitors. BM6 support is experimental (live voltage only).</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#download">Coming soon to the App Store</a>
+        <a class="btn btn-secondary" href="support.html">Questions? Visit support</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="./"><img src="assets/icon.svg" alt=""><span>Voltsure</span></a>
+        <p class="muted">Private battery monitoring for campervans, motorhomes and caravans.</p>
+      </div>
+      <div><h4>App</h4><ul><li><a href="./#features">Features</a></li><li><a href="about.html">About</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="support.html">Support</a></li><li><a href="support.html#contact">Contact</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use (EULA)</a></li></ul></div>
+    </div>
+    <p class="footer-bottom">© 2026 <a href="https://www.seventytwoagency.co.uk/">Seventy Two Agency</a>. Designed and built in the UK.</p>
+  </div>
+</footer>
+
+</body>
+</html>
