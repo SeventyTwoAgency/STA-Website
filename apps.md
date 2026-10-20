@@ -15,7 +15,7 @@ title: Apps
   .app-card .btn-testflight { background: #0d84ff; color: #fff; border-radius: 8px; font-weight: 600; padding: 10px 18px; }
   .app-card .btn-testflight:hover { background: #0a6fd8; color: #fff; }
   .app-card .app-more { display: block; margin-top: 18px; font-weight: 700; color: #1A472A; }
-  .apps-row { margin-bottom: 80px; }
+  .apps-row { margin-top: 48px; margin-bottom: 80px; }
 </style>
 
 <div class="row">
