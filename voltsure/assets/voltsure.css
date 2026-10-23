@@ -95,6 +95,7 @@ h1, h2, h3 { line-height: 1.15; letter-spacing: -0.02em; font-family: -apple-sys
 .pill.falling { background: color-mix(in srgb, var(--amber) 20%, transparent); color: var(--amber); }
 .pill.low { background: color-mix(in srgb, var(--red) 16%, transparent); color: var(--red); }
 .pill.rising { background: color-mix(in srgb, var(--teal) 18%, transparent); color: var(--teal); }
+.pill.model { background: color-mix(in srgb, var(--text) 9%, transparent); color: var(--text); }
 .pill.unknown { background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted); }
 .chart-card { background: #fff; border-radius: 16px; padding: 12px 12px 8px; }
 @media (prefers-color-scheme: dark) { .chart-card { background: #1c1c1e; } }

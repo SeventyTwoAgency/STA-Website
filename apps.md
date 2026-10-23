@@ -46,7 +46,7 @@ title: Apps
       <a href="voltsure/"><img class="app-icon" src="voltsure/assets/icon.svg" alt="Voltsure app icon"></a>
       <h3>Voltsure</h3>
       <div class="app-tagline">Private battery monitor for campervans and motorhomes</div>
-      <p>Turns your BM2 Bluetooth battery monitor into a clear view of your leisure and starter batteries, with low-voltage alerts and history that catches up. No account, no tracking, and your readings never leave your device.</p>
+      <p>Brings any number of BM2, BM6 and BM7 Bluetooth battery monitors, in any mix, into one clear view of your leisure and starter batteries, with low-voltage alerts and history that catches up. No account, no tracking, and your readings never leave your device.</p>
       <div class="app-platforms">iPhone · iPad · Mac · CarPlay</div>
       <div class="app-links">
         <a class="btn btn-testflight" href="https://testflight.apple.com/join/MgdkBEQP">Join the TestFlight beta</a>
