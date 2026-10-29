@@ -191,3 +191,7 @@ details > div p:first-child { margin-top: 0; }
   .status-list li { grid-template-columns: 1fr; gap: 6px; }
   .status-list .pill { justify-self: start; }
 }
+
+/* The official App Store badge, beside the buttons */
+.store-badge { display: inline-flex; align-items: center; }
+.store-badge img { height: 54px; width: auto; display: block; }

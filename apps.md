@@ -12,8 +12,6 @@ title: Apps
   .app-card .app-platforms { font-size: 14px; color: #6c757d; margin-bottom: 24px; }
   .app-card .app-links { margin-top: auto; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .app-card .app-links img { height: 44px; width: auto; }
-  .app-card .btn-testflight { background: #0d84ff; color: #fff; border-radius: 8px; font-weight: 600; padding: 10px 18px; }
-  .app-card .btn-testflight:hover { background: #0a6fd8; color: #fff; }
   .app-card .app-more { display: block; margin-top: 18px; font-weight: 700; color: #1A472A; }
   .apps-row { margin-top: 48px; margin-bottom: 80px; }
 </style>
@@ -49,7 +47,7 @@ title: Apps
       <p>Brings any number of BM2, BM6 and BM7 Bluetooth battery monitors, in any mix, into one clear view of your leisure and starter batteries, with low-voltage alerts and history that catches up. No account, no tracking, and your readings never leave your device.</p>
       <div class="app-platforms">iPhone · iPad · Mac · CarPlay</div>
       <div class="app-links">
-        <a class="btn btn-testflight" href="https://testflight.apple.com/join/MgdkBEQP">Join the TestFlight beta</a>
+        <a href="https://apps.apple.com/gb/app/id6823759055"><img src="assets/img/apps/app-store-badge.svg" alt="Download Voltsure on the App Store"></a>
       </div>
       <a class="app-more" href="voltsure/">Find out more &rarr;</a>
     </div>
