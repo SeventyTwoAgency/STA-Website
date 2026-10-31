@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Voltsure Support</title>
-<meta name="description" content="Help with Voltsure: compatible battery monitors, connection problems, charge estimates, status, alerts and history.">
+<meta name="description" content="Help with Voltsure: compatible battery monitors, Victron devices, connection problems, charge estimates, status, alerts and history.">
 <link rel="canonical" href="https://www.seventytwoagency.co.uk/voltsure/support.html">
 <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -42,6 +42,11 @@
     <details>
       <summary>Which monitors work with Voltsure?</summary>
       <div><p>BM2, BM6 and BM200 Bluetooth battery monitors, all tested with Voltsure.</p><p>Support for the BM7 (sold as the BM300 Pro) and the intAct Battery Guard is <strong>experimental</strong>: it’s built from their documented Bluetooth protocol, but hasn’t yet been tested on a real monitor. Voltsure marks them “Experimental” when you add them. Monitors sold under other brands and names may work too. If yours doesn’t work as it should, please <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20experimental%20monitor">tell us</a> which monitor it is and what you see.</p><p>Monitor under a name Voltsure doesn’t recognise? In Add Battery, tap “Can’t see your monitor?” to list other Bluetooth devices nearby, and try yours: Voltsure works out which kind it is once connected.</p><p>You can add as many as you like and mix models freely, in Free and Pro. Every connected monitor reads at the same time.</p></div>
+    </details>
+
+    <details>
+      <summary>Which Victron devices work, and how do I add one?</summary>
+      <div><p>Victron Smart devices that share live readings over Bluetooth (“Instant Readout”): SmartSolar solar chargers, SmartShunt and Smart battery monitors, Orion Smart DC-DC chargers and Blue Smart mains chargers. Older devices without Instant Readout can’t share their readings this way. Voltsure reads what they already broadcast, so there’s no extra hardware and nothing to connect. Victron devices are part of the Power System, a Voltsure Pro feature.</p><p>To add one, open the Power System, add the part (a solar charger, say), tap <strong>Read from a Victron Device…</strong> and pick it, then paste its encryption key. The key is in VictronConnect: tap the device, then ⚙︎, then ⋮ and Product info, check “Instant readout via Bluetooth” is enabled, and tap Show beside Instant readout details. The key is 32 letters and numbers. In Voltsure, Help → “Reading a Victron device” → How to Find the Key walks through it.</p><p>Readings arrive while Voltsure is open, on any screen or in CarPlay; iOS doesn’t pass them to apps in the background. Out of range, a device shows its last reading and how old it is.</p></div>
     </details>
 
     <details>
