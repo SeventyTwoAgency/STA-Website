@@ -61,6 +61,21 @@
     </details>
 
     <details>
+      <summary>Which lithium batteries work, and what do they show?</summary>
+      <div><p>Lithium batteries with Bluetooth built in can be added without a monitor: Fogstar and other batteries with a JBD BMS (the ones the Xiaoxiang app reads: Liontron, Supervolt, Chins, Titan, SBL, Lossigy and more), and Renogy batteries with a BT-2 module (it shows as BT-TH-…) or Bluetooth built in. Tap + on the Batteries screen; close the battery’s own app first.</p><p>Voltsure shows the battery’s own charge, which its BMS works out by counting what goes in and out, the current (above zero is charging) and power, each cell’s voltage with the spread between them, its temperatures, cycles and capacity, and any alarm the BMS reports. The BMS keeps no history, so readings are saved, one a minute, while it’s connected.</p><p>Support is <strong>experimental</strong>: it’s built from the published protocols in the open-source aiobmsble project and hasn’t yet been tested on every battery. Voltsure only reads the battery: it never changes its settings or switches charging or discharging on or off. If yours doesn’t read right, please <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20lithium%20battery">tell us</a> which battery it is and what you see.</p></div>
+    </details>
+
+    <details>
+      <summary>My Fogstar battery asks for a PIN</summary>
+      <div><p>Newer Fogstar batteries need their Bluetooth PIN before they answer: 000000 unless you changed it in the battery’s app. Voltsure tries 000000 if the battery doesn’t answer. If that doesn’t work, enter your PIN in Add Battery, or in the battery’s Battery Settings. The PIN stays in the Keychain on your iPhone and is sent only to the battery.</p></div>
+    </details>
+
+    <details>
+      <summary>The battery’s own app can’t connect</summary>
+      <div><p>Most lithium batteries talk to one phone at a time. In Voltsure, open the battery’s Battery Settings and tap <strong>Let the Battery’s App Connect</strong>: Voltsure steps aside for 10 minutes so Xiaoxiang or Renogy’s app can connect, then connects again.</p></div>
+    </details>
+
+    <details>
       <summary>The app can’t find my monitor</summary>
       <div>
         <ul>

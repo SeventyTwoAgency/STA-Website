@@ -54,6 +54,18 @@
     </table>
     <p class="note">Monitors are often sold under other brands and names. If Voltsure doesn’t recognise yours, tap “Can’t see your monitor?” in Add Battery and try it: Voltsure works out which kind it is once connected.</p>
 
+    <h2 id="lithium">Lithium batteries with Bluetooth</h2>
+    <p class="muted">Free. No monitor needed: the battery’s own BMS gives its charge, the current in or out, power, every cell’s voltage, temperatures and alarms. Read-only: Voltsure never changes the battery’s settings or switches it on or off. The BMS keeps no history, so readings are saved while it’s connected.</p>
+    <table class="compat-table">
+      <thead><tr><th scope="col">Battery</th><th scope="col">How it shows</th><th scope="col">Status</th><th scope="col">Notes</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Fogstar, and other batteries with a JBD BMS</th><td data-label="How it shows">The ones the Xiaoxiang app reads: Fogstar, Liontron, Supervolt, Chins, Titan, SBL, Lossigy and more</td><td><span class="pill stable">Built from protocol</span></td><td>Newer Fogstar Drift batteries need their Bluetooth PIN, 000000 unless you changed it; Voltsure tries it for you.</td></tr>
+        <tr><th scope="row">Renogy lithium batteries with a BT-2</th><td data-label="How it shows">BT-TH-…</td><td><span class="pill stable">Built from protocol</span></td><td></td></tr>
+        <tr><th scope="row">Renogy batteries with Bluetooth built in</th><td data-label="How it shows">RNGRBP…, RNGC…</td><td><span class="pill stable">Built from protocol</span></td><td></td></tr>
+      </tbody>
+    </table>
+    <p class="note">Built from the open-source <a href="https://github.com/patman15/aiobmsble">aiobmsble</a> project’s published protocols, and marked Experimental in the app until owners confirm them. Have one? <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20lithium%20battery">Tell us how it goes</a>. JK, Daly, LiTime / Redodo, Eco-Worthy and Seplos are next.</p>
+
     <h2 id="victron">Victron Smart devices <span class="tag-pro">PRO</span></h2>
     <p class="muted">Live readings beside your batteries, with your iPhone locked and on CarPlay. No extra hardware: Voltsure connects over Bluetooth, as VictronConnect does, and only ever reads.</p>
     <table class="compat-table">
@@ -76,7 +88,7 @@
     </ul>
 
     <h2 id="not-yet">Not yet</h2>
-    <p>Voltsure doesn’t read lithium batteries’ own Bluetooth (BMS) apps, temperature sensors, gas level sensors, heaters or fridges yet. If there’s a device you’d like to see, <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20device%20request">email us</a> its make and model.</p>
+    <p>Voltsure doesn’t yet read lithium batteries with other BMS boards (JK, Daly, LiTime and others), Renogy solar controllers and shunts, temperature sensors, gas level sensors, heaters or fridges yet. If there’s a device you’d like to see, <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20device%20request">email us</a> its make and model.</p>
 
     <div class="callout">
       <p><strong>Got a monitor that isn’t listed, or one that doesn’t work as it should?</strong></p>
