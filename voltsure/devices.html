@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Works with Voltsure – BM2, BM6, BM7, BM200, BM300 Pro and Victron</title>
+<meta name="description" content="Every battery monitor and Victron device Voltsure reads, and which ones are tested on real hardware: BM2, BM6, BM200, BM7, BM300 Pro, intAct Battery Guard, SmartSolar, SmartShunt, Orion Smart and Blue Smart chargers.">
+<link rel="canonical" href="https://www.seventytwoagency.co.uk/voltsure/devices.html">
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#fbfaf6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0f12" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="assets/voltsure.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <a class="brand" href="./"><img src="assets/icon.svg" alt=""><span>Voltsure</span></a>
+    <ul class="nav-links">
+      <li class="hide-sm"><a href="./#features">Features</a></li>
+      <li><a href="devices.html" aria-current="page">Works with</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li class="hide-sm"><a href="about.html">About</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="container page-hero">
+    <p class="eyebrow">Works with</p>
+    <h1>Check your monitor before you buy</h1>
+    <p>Every battery monitor and Victron device Voltsure reads, and how far each has been tested. Mix them freely, as many as you like.</p>
+  </div>
+
+  <div class="container compat">
+    <ul class="compat-legend" aria-label="What each label means">
+      <li><span class="pill charging">Tested</span> Checked on a real device, against the maker’s own app.</li>
+      <li><span class="pill stable">Built from protocol</span> Built from the device’s documented Bluetooth protocol; not yet checked on a real one.</li>
+      <li><span class="pill falling">Experimental</span> Works on a real device, still marked Experimental in the app while we learn more.</li>
+    </ul>
+
+    <h2 id="monitors">Bluetooth battery monitors</h2>
+    <p class="muted">Free. Voltage, an estimate of the charge left, status, alerts, and the history the monitor keeps while you’re away.</p>
+    <table class="compat-table">
+      <thead><tr><th scope="col">Monitor</th><th scope="col">Also sold as</th><th scope="col">Status</th><th scope="col">Notes</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">BM2</th><td data-label="Also sold as">Battery Monitor, Li Battery Monitor</td><td><span class="pill charging">Tested</span></td><td>Voltage only, 12&nbsp;V. Logs a reading every two minutes.</td></tr>
+        <tr><th scope="row">BM6</th><td data-label="Also sold as">BM200</td><td><span class="pill charging">Tested</span></td><td>Adds temperature and the monitor’s own status. 12&nbsp;V.</td></tr>
+        <tr><th scope="row">BM7</th><td data-label="Also sold as">BM300 Pro</td><td><span class="pill falling">Experimental</span></td><td>Tested on a real monitor, including a 20&nbsp;V tool battery. Temperature and status, and 6, 12 or 24&nbsp;V batteries.</td></tr>
+        <tr><th scope="row">intAct Battery Guard</th><td></td><td><span class="pill stable">Built from protocol</span></td><td>Not yet checked on a real monitor. Please tell us how it goes.</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Monitors are often sold under other brands and names. If Voltsure doesn’t recognise yours, tap “Can’t see your monitor?” in Add Battery and try it: Voltsure works out which kind it is once connected.</p>
+
+    <h2 id="victron">Victron Smart devices <span class="tag-pro">PRO</span></h2>
+    <p class="muted">Live readings beside your batteries, with your iPhone locked and on CarPlay. No extra hardware: Voltsure connects over Bluetooth, as VictronConnect does, and only ever reads.</p>
+    <table class="compat-table">
+      <thead><tr><th scope="col">Device</th><th scope="col">Reads</th><th scope="col">Status</th><th scope="col">Notes</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">SmartSolar solar chargers</th><td data-label="Reads">Solar power, today’s yield, battery voltage and current, charge state</td><td><span class="pill charging">Tested</span></td><td>Voltsure also reads its own log of the last 30 days.</td></tr>
+        <tr><th scope="row">Blue Smart mains chargers</th><td data-label="Reads">Battery voltage and current, charge state, temperature</td><td><span class="pill charging">Tested</span></td><td></td></tr>
+        <tr><th scope="row">SmartShunt and Smart battery monitors</th><td data-label="Reads">Voltage, current, state of charge, time left, and a starter voltage or temperature</td><td><span class="pill stable">Built from protocol</span></td><td>A shunt’s current tells Voltsure whether its battery is charging.</td></tr>
+        <tr><th scope="row">Orion Smart DC-DC chargers</th><td data-label="Reads">Input and battery voltage, charge state</td><td><span class="pill stable">Built from protocol</span></td><td></td></tr>
+        <tr><th scope="row">Inverters</th><td data-label="Reads">Output power and voltage, battery voltage</td><td><span class="pill stable">Built from protocol</span></td><td></td></tr>
+      </tbody>
+    </table>
+    <p class="note">The encryption key from VictronConnect is optional. With it, Voltsure also reads the device’s Instant Readout broadcasts, so it keeps updating while another phone is connected. See <a href="support.html">Support</a> for where to find it.</p>
+
+    <h2 id="phones">Your iPhone, iPad and Mac</h2>
+    <ul class="prose-list">
+      <li>iPhone or iPad with iOS 18.5 or later, and Bluetooth.</li>
+      <li>Mac with Apple silicon.</li>
+      <li>CarPlay, wired or wireless, with Voltsure Pro.</li>
+    </ul>
+
+    <h2 id="not-yet">Not yet</h2>
+    <p>Voltsure doesn’t read lithium batteries’ own Bluetooth (BMS) apps, temperature sensors, gas level sensors, heaters or fridges yet. If there’s a device you’d like to see, <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20device%20request">email us</a> its make and model.</p>
+
+    <div class="callout">
+      <p><strong>Got a monitor that isn’t listed, or one that doesn’t work as it should?</strong></p>
+      <p>Email <a href="mailto:info@seventytwoagency.co.uk?subject=Voltsure%20monitor">info@seventytwoagency.co.uk</a> with the name on the monitor, where you bought it, and what Voltsure shows. That’s how the BM7 went from protocol to tested.</p>
+    </div>
+
+    <p class="note">Voltsure is independent. It isn’t made by, affiliated with or endorsed by Victron Energy or the makers of the monitors listed here. Product names are their owners’ trademarks.</p>
+  </div>
+
+  <section class="cta alt">
+    <div class="container narrow">
+      <h2>Found yours?</h2>
+      <p>Voltsure is free to download, with no account. Pro is a one-time purchase.</p>
+      <div class="actions">
+        <a class="store-badge" href="https://apps.apple.com/app/id6823759055"><img src="../assets/img/apps/app-store-badge.svg" alt="Download Voltsure on the App Store" height="54"></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="./"><img src="assets/icon.svg" alt=""><span>Voltsure</span></a>
+        <p class="muted">Private battery monitoring for campervans, motorhomes and caravans.</p>
+      </div>
+      <div><h4>App</h4><ul><li><a href="./#features">Features</a></li><li><a href="devices.html">Works with</a></li><li><a href="about.html">About</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="support.html">Support</a></li><li><a href="support.html#contact">Contact</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use (EULA)</a></li></ul></div>
+    </div>
+    <p class="footer-bottom">© 2026 <a href="https://www.seventytwoagency.co.uk/">Seventy Two Agency</a>. Designed and built in the UK. Not affiliated with Victron Energy.</p>
+  </div>
+</footer>
+
+</body>
+</html>

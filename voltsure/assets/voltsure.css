@@ -204,3 +204,30 @@ details > div p:first-child { margin-top: 0; }
 .wide-shot { margin: 0 auto 48px; max-width: 960px; }
 .wide-shot img { display: block; width: 100%; height: auto; box-shadow: 0 30px 60px -20px rgba(0,0,0,.4), 0 0 0 1px var(--line); }
 .wide-shot figcaption { text-align: center; color: var(--muted); font-size: 15px; margin-top: 18px; }
+
+/* Works with: the compatibility tables */
+.compat { padding: 24px 20px 72px; }
+.compat h2 { font-size: 26px; margin: 48px 0 6px; }
+.compat > p.muted { margin: 0 0 18px; max-width: 46em; }
+.compat .tag-pro { font-size: 12px; }
+.compat-legend { list-style: none; margin: 8px 0 0; padding: 18px 20px; display: grid; gap: 10px; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); font-size: 15px; }
+.compat-legend .pill, .compat-table .pill { font-size: 12px; padding: 3px 9px; white-space: nowrap; margin-right: 6px; }
+.compat-table { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; font-size: 15px; }
+.compat-table th, .compat-table td { text-align: left; vertical-align: top; padding: 14px 16px; border-top: 1px solid var(--line); }
+.compat-table thead th { border-top: 0; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; }
+.compat-table tbody th { font-weight: 600; width: 24%; }
+.compat-table td { color: var(--muted); }
+.prose-list { padding-left: 22px; }
+.prose-list li { margin-bottom: 6px; }
+@media (max-width: 700px) {
+  .compat { padding: 16px 16px 56px; }
+  .compat-table thead { display: none; }
+  .compat-table, .compat-table tbody, .compat-table tr, .compat-table th, .compat-table td { display: block; width: auto; }
+  .compat-table tr { padding: 14px 16px; border-top: 1px solid var(--line); }
+  .compat-table tr:first-child { border-top: 0; }
+  .compat-table th, .compat-table td { padding: 2px 0; border: 0; }
+  .compat-table tbody th { width: auto; font-size: 17px; }
+  .compat-table td:empty { display: none; }
+  .compat-table td[data-label]::before { content: attr(data-label) ": "; color: var(--text); font-weight: 500; }
+}
+.shots-note { text-align: center; margin-top: 28px; }
